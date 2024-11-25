@@ -12,13 +12,13 @@ public class PilasCinco {
     public static void main(String[] args) {
         PaginaWeb pagina = new PaginaWeb();
         
-        pagina.navegar("Diagram");
-        pagina.navegar("Producto");
-        pagina.desHacer();
-        pagina.rehacer();
-        pagina.navegar("pilacero");
-        
-        
+        pagina.navegar("Página 1");
+        pagina.navegar("Página 2");
+       
+        pagina.regresar();  
+        pagina.continuar();  
+ 
+        pagina.navegar("Página 3");
     }
 }
  

@@ -26,22 +26,22 @@ public class PaginaWeb {
     }
 
     // Método para retroceder en el historial
-    public void desHacer() {
+    public void regresar() {
         if (!historialAtras.isEmpty()) {
             historialAdelante.push(funcionalidad);  
             funcionalidad = historialAtras.pop();  
-            System.out.println("Deshacer (retroceder): " + funcionalidad);
+            System.out.println("Deshacer retroceder: " + funcionalidad);
         } else {
             System.out.println("No hay páginas para retroceder.");
         }
     }
 
     // Método para avanzar en el historial (rehacer)
-    public void rehacer() {
+    public void continuar() {
         if (!historialAdelante.isEmpty()) {
             historialAtras.push(funcionalidad);  
             funcionalidad = historialAdelante.pop(); 
-            System.out.println("Rehacer (avanzar): " + funcionalidad);
+            System.out.println("Rehacer avanzar: " + funcionalidad);
         } else {
             System.out.println("No hay páginas para avanzar.");
         }
