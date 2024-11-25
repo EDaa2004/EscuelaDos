@@ -27,12 +27,12 @@ public class PaginaWeb {
 
     // Método para retroceder en el historial
     public void regresar() {
-        if (!historialAtras.isEmpty()) {
-            historialAdelante.push(funcionalidad);  
-            funcionalidad = historialAtras.pop();  
-            System.out.println("Deshacer retroceder: " + funcionalidad);
-        } else {
-            System.out.println("No hay páginas para retroceder.");
+        if(!historialAtras.isEmpty()){
+            historialAdelante.push(funcionalidad);
+            funcionalidad = historialAtras.pop();
+            System.out.println("Rehacer: "+funcionalidad);
+        }else {
+            System.out.println("no hay accines");
         }
     }
 
