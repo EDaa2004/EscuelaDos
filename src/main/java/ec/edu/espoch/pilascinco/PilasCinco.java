@@ -18,6 +18,7 @@ public class PilasCinco {
         pagina.atras();
         pagina.navegar("Wix");
         System.out.println("Nuevo periodo academico");
+        System.out.println("Universitaria");
         
     }
 }
