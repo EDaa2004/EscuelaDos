@@ -17,6 +17,7 @@ public class PilasCinco {
         pagina.adelante();
         pagina.atras();
         pagina.navegar("Wix");
+        System.out.println("bienveidos  ala escuela");
         
     }
 }
