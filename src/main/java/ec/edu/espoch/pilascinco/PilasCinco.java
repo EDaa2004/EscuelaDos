@@ -13,12 +13,11 @@ public class PilasCinco {
         PaginaWeb pagina = new PaginaWeb();
         
         pagina.navegar("Diagram");
-        pagina.navegar("Gmail");
+        pagina.navegar("Producto");
         pagina.adelante();
         pagina.atras();
-        pagina.navegar("Wix");
-        System.out.println("Nuevo periodo academico");
-        System.out.println("Universitaria");
+        pagina.navegar("pilacero");
+        
         
     }
 }
