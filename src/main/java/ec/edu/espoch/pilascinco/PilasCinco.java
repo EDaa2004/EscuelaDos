@@ -19,6 +19,7 @@ public class PilasCinco {
         pagina.continuar();  
  
         pagina.navegar("Página 3");
+        System.out.println("bienvenidos a la pagina web");
     }
 }
  

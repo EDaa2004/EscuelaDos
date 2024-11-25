@@ -30,7 +30,7 @@ public class PaginaWeb {
         if(!historialAtras.isEmpty()){
             historialAdelante.push(funcionalidad);
             funcionalidad = historialAtras.pop();
-            System.out.println("Rehacer: "+funcionalidad);
+            System.out.println("deshacer: "+funcionalidad);
         }else {
             System.out.println("no hay accines");
         }
@@ -41,7 +41,7 @@ public class PaginaWeb {
         if (!historialAdelante.isEmpty()) {
             historialAtras.push(funcionalidad);  
             funcionalidad = historialAdelante.pop(); 
-            System.out.println("Rehacer avanzar: " + funcionalidad);
+            System.out.println("Rehacer y avanzar: " + funcionalidad);
         } else {
             System.out.println("No hay páginas para avanzar.");
         }
