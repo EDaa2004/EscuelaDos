@@ -14,8 +14,8 @@ public class PilasCinco {
         
         pagina.navegar("Diagram");
         pagina.navegar("Producto");
-        pagina.adelante();
-        pagina.atras();
+        pagina.desHacer();
+        pagina.rehacer();
         pagina.navegar("pilacero");
         
         
